@@ -1,0 +1,48 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    background: rgb(202, 209, 207);
+  }
+  
+  h1 {
+    margin-left: 45%;
+    color: rgb(90, 197, 188);
+    font-size: 70px;
+    margin-top: 5%;
+  }
+  h2 {
+    margin-left: 40%;
+    color: rgb(90, 197, 188);
+    font-size: 70px;
+    margin-top: 5%;
+  }
+  
+  #main-container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: bottom 15px;
+  }
+  
+  .main {
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 0 0 20px 0;
+    opacity: 0.7;
+  }
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
